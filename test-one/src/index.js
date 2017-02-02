@@ -8,7 +8,6 @@ const boss = "Boss";
 const hog = "Hog";
 
 for(var i = 1; i <=100; i++)
-{
 	if(i%15 == 0 )
 	{
 		logger.log(boss.concat(hog));
@@ -25,4 +24,3 @@ for(var i = 1; i <=100; i++)
 	{
 		logger.log(i);
 	}
-}
