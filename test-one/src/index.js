@@ -11,15 +11,19 @@ for(var i = 1; i <=100; i++)
 {
 	if(i%15 == 0 )
 	{
-		logger.log(i + ": " + boss + hog);
+		logger.log(boss.concat(hog));
 	}
 	else if(i%5 == 0 )
 	{
-		logger.log(i + ": " + hog);
+		logger.log(hog);
 	}
 	else if(i%3 == 0 )
 	{
-		logger.log(i + ": " + boss); 
+		logger.log(boss); 
 
+	}
+	else
+	{
+		logger.log(i);
 	}
 }
